@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Final Portfolio</title>
+<link rel="icon" type="image/jpg" href=".jpg">
+<link rel="stylesheet" href="folio.css">
+</head>
+<body>
+
+
+<video autoplay loop muted playsinline>
+    <source src="sky.mp4" type="video/mp4">
+</video>
+<div class="overlay"></div>
+
+<div class="content">
+
+    
+    <div id="audio-container">
+        <audio id="bg-audio" autoplay loop controls>
+            <source src="prfct.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    
+    <header>
+        <img src="pandoug.jpg" alt="Website Logo" class="logo">
+    </header>
+
+    
+    <h1 id="navi" class="nav">
+        <a href="#sign1" class="up">Sign Up</a> | 
+        <a href="#eysia" class="abt">About Asia</a> | 
+        <a href="#triv" class="myTrivia">Trivia</a>
+    </h1>
+
+    
+    <h2 id="sign1" class="up">Sign Up</h2>
+    <form id="SignUp">
+        <label for="fullname">Full Name</label>
+        <input type="text" name="fullname" placeholder="Enter your full name">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter your email address">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+        <button type="button" onclick="togglePassword()">Show</button>
+
+        <button class="bttn" type="submit">Submit</button>
+    </form>
+
+    <script>
+    function togglePassword() {
+        const pass = document.getElementById("password");
+        const btn = event.target;
+        if (pass.type === "password") {
+            pass.type = "text";
+            btn.textContent = "Hide";
+        } else {
+            pass.type = "password";
+            btn.textContent = "Show";
+        }
+    }
+    </script>
+
+    
+    <h2 id="eysia" class="abt">About Asia</h2>
+    <img src="asia.jpg" alt="Asia Photo" class="about-photo">
+    <p>Hawooooo! My name is Asia! Yep you heard it right! Just like the name of the continent itself. I'm 20 years old (*/cries in adulthood), living in the beautiful islands (yet corrupted government) which is the Philippines!</p>
+        <p>Below are the other specific things that you want to know about me. Yet later on, you will have a trivia if you know more much about me than my friends</p>
+    <img src="bugcat.gif" alt="laughing bugcat">
+
+    
+    <h2>More Information About Asia!</h2>
+    <table>
+        <tr>
+            <th>Full Name</th>
+            <th>Age</th>
+            <th>Citizenship</th>
+        </tr>
+        <tr>
+            <td>Asia Louise O. Borromeo (Borromayo)</td>
+            <td>20 years old</td>
+            <td>Filipino</td>
+        </tr>
+        <tr>
+            <th>Status</th>
+            <th>Favorite Music Genres</th>
+            <th>Hobbies</th>
+        </tr>
+        <tr>
+            <td>Single</td>
+            <td>
+                <ol>
+                    <li>Classical Music</li>
+                    <li>Hip-Hop</li>
+                    <li>JPOP</li>
+                    <li>KPOP</li>
+                    <li>OPM</li>
+                </ol>
+            </td>
+            <td>
+                <ul>
+                    <li>Watching movies</li>
+                    <li>Travelling</li>
+                    <li>Badminton</li>
+                    <li>Listening to music</li>
+                    <li>Jogging</li>
+                    <li>Photography</li>
+                    <li>Beyblading</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3">Favorite Groups</th>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <ul style="list-style:none;">
+                    <li>Hinatazaka46</li>
+                    <li>Nogizaka46</li>
+                    <li>Sakurazaka46</li>
+                    <li>IZ*ONE</li>
+                    <li>GFRIEND</li>
+                    <li>Twice</li>
+                    <li>Weki Meki</li>
+                    <li>Stayc</li>
+                    <li>Mamamoo</li>
+                    <li>Dreamcatcher</li>
+                    <li>Fromis_9</li>
+                    <li>Everglow</li>
+                    <li>Red Velvet</li>
+                    <li>LOONA</li>
+                    <li>ITZY</li>
+                    <li>ARTMS</li>
+                    <li>Weeekly</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    
+    <h2>Favorite Beyblades of Asia</h2>
+    <table>
+        
+        <tr><th colspan="2">Beyblade Burst</th></tr>
+        <tr>
+            <td>Astral Spriggan<br><img src="https://static.wikia.nocookie.net/beyblade/images/4/4d/BBDB-Astral_Spriggan_Over_Quattro-0_%28Left%29.png/revision/latest/scale-to-width/360?cb=20211005021645" width="150px" height="250px"></td>
+            <td>Chain Kerbeus<br><img src="https://static.wikia.nocookie.net/beyblade/images/a/ac/BBBU-Chain_Kerbeus_Fortress_Yard%27-6.jpeg/revision/latest?cb=20220512165343" width="150px" height="250px"></td>
+        </tr>
+        <tr>
+            <td>Curse Satomb<br><img src="https://static.wikia.nocookie.net/beyblade/images/c/ce/Curse_Satomb_S6.jpeg/revision/latest?cb=20201115173536" width="150px" height="250px"></td>
+            <td>Mirage Fafnir<br><img src="https://static.wikia.nocookie.net/beyblade/images/3/3c/BBSK-MFNT2S_2.jpg/revision/latest?cb=20200514165700" width="150px" height="250px"></td>
+        </tr>
+        <tr>
+            <td>Vanish Fafnir<br><img src="https://static.wikia.nocookie.net/beyblade/images/8/8c/Vanish_Fafnir_Tapered_Kick-3_%28Low_Mode%29.png/revision/latest?cb=20210906235949" width="150px" height="250px"></td>
+            <td>Erase and Venom Devolos<br><img src="https://m.media-amazon.com/images/I/81sHyUrMulL._AC_SL1500_.jpg" width="150px" height="250px"></td>
+        </tr>
+        <tr>
+            <td>Brave Valtryek<br><img src="https://static.wikia.nocookie.net/beyblade/images/d/da/Beyblade_Burst_Superking_-_Brave_Valkyrie_Evolution%27_2A.png/revision/latest/scale-to-width/360?cb=20200403081537" width="150px" height="250px"></td>
+            <td>Dran Buster<br><img src="https://static.wikia.nocookie.net/beyblade/images/9/96/DranBuster_1-60A.jpg/revision/latest?cb=20240217024643" width="150px" height="250px"></td>
+        </tr>
+        <tr>
+            <td>Impact Drake<br><img src="https://static.wikia.nocookie.net/beyblade/images/2/27/ImpactDrake_9-60LR.jpg/revision/latest?cb=20241115004630" width="150px" height="250px"></td>
+            <td>Shark Scale<br><img src="https://static.wikia.nocookie.net/beyblade/images/b/b1/SharkScale_4-50UF.png/revision/latest?cb=20250715030351" width="150px" height="250px"></td>
+        </tr>
+        
+    </table>
+
+    
+    <h2 id="triv" class="myTrivia">Trivia Time</h2>
+    <form>
+        <p>Q1: What's my first name?</p>
+        <input type="radio" name="Q1" id="q1a"><label for="q1a">Asia</label>
+        <input type="radio" name="Q1" id="q1b"><label for="q1b">Ayesha</label>
+        <input type="radio" name="Q1" id="q1c"><label for="q1c">Asya</label>
+
+        <p>Q2: How old am I?</p>
+        <input type="radio" name="Q2" id="q2a"><label for="q2a">25</label>
+        <input type="radio" name="Q2" id="q2b"><label for="q2b">50+?</label>
+        <input type="radio" name="Q2" id="q2c"><label for="q2c">20</label>
+
+        <p>Q3: What's my status?</p>
+        <input type="radio" name="Q3" id="q3a"><label for="q3a">Married (by Me)</label>
+        <input type="radio" name="Q3" id="q3b"><label for="q3b">Single</label>
+        <input type="radio" name="Q3" id="q3c"><label for="q3c">Already Taken (my heart)</label>
+
+        <p>Q4: What's my favorite music genre?</p>
+        <input type="radio" name="Q4" id="q4a"><label for="q4a">Jazz</label>
+        <input type="radio" name="Q4" id="q4b"><label for="q4b">Rock</label>
+        <input type="radio" name="Q4" id="q4c"><label for="q4c">Jpop</label>
+
+        <p>Q5: What's my favorite music group?</p>
+        <input type="radio" name="Q5" id="q5a"><label for="q5a">BTS</label>
+        <input type="radio" name="Q5" id="q5b"><label for="q5b">Hinatazaka46</label>
+        <input type="radio" name="Q5" id="q5c"><label for="q5c">Seventeen</label>
+
+        <p>Q6: What's my favorite beyblade?</p>
+        <input type="radio" name="Q6" id="q6a"><label for="q6a">Idk?</label>
+        <input type="radio" name="Q6" id="q6b"><label for="q6b">Ewan</label>
+        <input type="radio" name="Q6" id="q6c"><label for="q6c">Chain Kerbeus</label>
+
+        <button class="bttn" type="submit">Submit</button>
+    </form>
+
+    <h2><a href="#navi">TO DA TOP</a></h2>
+    <h1>That's the End of it! Thank youuuu!</h1>
+    <img src="smile.png" alt="Bugcat Smiling">
+
+</div>
+</body>
+</html>
